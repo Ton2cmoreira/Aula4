@@ -2,7 +2,7 @@ package model;
 
 public class ContaPoupanca extends Conta {
       private double Rendimento;
-	ContaPoupanca(String email) {
+	public ContaPoupanca(String email) {
 		super(email);
 		this.Rendimento = Rendimento;
 		
