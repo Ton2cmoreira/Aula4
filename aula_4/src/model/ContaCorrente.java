@@ -3,7 +3,7 @@ package model;
 public class ContaCorrente extends Conta {
 	private double valorTaxa;
 
-	ContaCorrente(String email, double valorTaxa){
+	public ContaCorrente(String email, double valorTaxa){
 		super(email);
 		this.valorTaxa = valorTaxa;
 		// TODO Auto-generated constructor stub
